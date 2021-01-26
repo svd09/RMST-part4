@@ -1,0 +1,20 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+library(badger)
+```
+
+# RMST-Survival Analysis part 4 / Indian Journal of Thoracic and Cardiovascular Surgery
+
+`r badger::badge_custom("Louis Stokes Cleveland VA Medical Center","Cleveland VA CV Research Group","yellow")`
+
+This repository contains a dataset and both Rscript and .do files to analyse the dataaset. These files provide examples of calculating median survival time, RMST, RMLT and other model-free non-parametric values for a time-to-event analysis.
